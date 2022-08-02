@@ -1,0 +1,71 @@
+<!-- @format -->
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Tugas Dicoding</title>
+    <!-- ionicons -->
+    <script
+      type="module"
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.esm.js"
+    ></script>
+    <script
+      nomodule
+      src="https://unpkg.com/ionicons@5.5.2/dist/ionicons/ionicons.js"
+    ></script>
+    <!-- CUSTOM CSS -->
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body class="">
+    <!-- HEADER  -->
+    <header>
+      <a href="#" class="logo f-lombok upper">indra</a>
+      <nav>
+        <ul class="navigation capit c-point upper">
+          <li><a href="#">beranda</a></li>
+          <li><a href="#">tentang</a></li>
+          <li><a href="#">kontak</a></li>
+        </ul>
+      </nav>
+
+      <div class="search">
+        <input type="text" placeholder="Cari..." />
+        <ion-icon name="search-outline"></ion-icon>
+      </div>
+    </header>
+    <!-- MAIN -->
+    <main>
+      <div class="banner">
+        <div id="content">
+          <h2 class="clr-white">Responsive Design</h2>
+          <!-- ARTICLE -->
+          <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur suscipit maiores quod obcaecati possimus rem praesentium id quae, quibusdam architecto voluptas aspernatur ipsa. Ex pariatur possimus nulla suscipit cumque facilis?</article>
+          <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sunt rerum in laboriosam! Asperiores reiciendis porro voluptates, nemo recusandae ipsum dignissimos totam rem aut nobis, architecto dolores iste id nostrum sed vel beatae, ipsa officiis ipsam illo fugit natus iure?</article>
+          <!-- ASIDE -->
+            <img src="./assets/img/content/multiscreen.png" alt="image" class="image">
+        </div>
+      </div>
+    </main>
+
+    <!-- FOOTER -->
+    <footer></footer>
+
+    <script>
+      // BUTTON RESPONSIVE
+      function Menu(e) {
+        let list = document.querySelector("ul");
+
+        e.name === "menu"
+          ? ((e.name = "close"),
+            list.classList.add("top-[80px]"),
+            list.classList.add("opacity-100"))
+          : ((e.name = "menu"),
+            list.classList.remove("top-[80px]"),
+            list.classList.remove("opacity-100"));
+      }
+    </script>
+  </body>
+</html>

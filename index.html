@@ -24,7 +24,7 @@
   <body class="">
     <!-- HEADER  -->
     <header>
-      <a href="#" class="logo f-lombok upper">indra</a>
+      <a href="#" class="logo f-lombok upper clr-white">indra</a>
       <nav>
         <ul class="navigation capit c-point upper">
           <li><a href="#">beranda</a></li>
@@ -43,17 +43,30 @@
     <main>
       <div class="banner">
         <div id="content" class="content">
-          <h1 class="btn-hover">Responsive Design</h1>
+          <h1 class="btn-hover">M Indra Ali</h1>
           <!-- ARTICLE -->
           <div class="flex">
-            <article>Lorem ipsum dolor sit amet consectetur adipisicing elit. Consequatur suscipit maiores quod obcaecati possimus rem praesentium id quae, quibusdam architecto voluptas aspernatur ipsa. Ex pariatur possimus nulla suscipit cumque facilis?
-            Lorem ipsum dolor sit amet consectetur adipisicing elit. Fugit sunt rerum in laboriosam! Asperiores reiciendis porro voluptates, nemo recusandae ipsum dignissimos totam rem aut nobis, architecto dolores iste id nostrum sed vel beatae, ipsa officiis ipsam illo fugit natus iure?</article>
+            <article>
+              Lorem ipsum dolor sit amet consectetur adipisicing elit.
+              Consequatur suscipit maiores quod obcaecati possimus rem
+              praesentium id quae, quibusdam architecto voluptas aspernatur
+              ipsa. Ex pariatur possimus nulla suscipit cumque facilis? Lorem
+              ipsum dolor sit amet consectetur adipisicing elit. Fugit sunt
+              rerum in laboriosam! Asperiores reiciendis porro voluptates, nemo
+              recusandae ipsum dignissimos totam rem aut nobis, architecto
+              dolores iste id nostrum sed vel beatae, ipsa officiis ipsam illo
+              fugit natus iure?
+            </article>
             <a href="#">read more</a>
             <!-- ASIDE -->
           </div>
         </div>
         <aside>
-          <img src="./assets/img/content/multiscreen.png" alt="image" class="image">
+          <img
+            src="./assets/img/content/multiscreen.png"
+            alt="image"
+            class="image"
+          />
         </aside>
       </div>
     </main>
@@ -62,14 +75,46 @@
     <footer class="footer">
       <div class="footer-container">
         <div class="footer-row">
-          <h4>company</h4>
-          <ul>
-            <li><a href="#">about us</a></li>
-            <li><a href="#">shipping</a></li>
-            <li><a href="#"></a>returns</li>
-            <li><a href="#">order status</a></li>
-            <li><a href="#">payment option</a></li>
-          </ul>
+          <div class="footer-col">
+            <h4>get help</h4>
+            <ul>
+              <li><a href="#">FAQ</a></li>
+              <li><a href="#">about <menu type="context"></menu></a></li>
+              <li><a href="#">contact me</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h4>follow me</h4>
+            <div class="social-links">
+              <ul>
+                <li>
+                  <a href="#">
+                    <ion-icon name="logo-github"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <ion-icon name="logo-instagram"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <ion-icon name="logo-tiktok"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <ion-icon name="logo-youtube"></ion-icon>
+                  </a>
+                </li>
+                <li>
+                  <a href="#">
+                    <ion-icon name="logo-linkedin"></ion-icon>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
         </div>
       </div>
     </footer>
@@ -77,14 +122,14 @@
     <script>
       // BUTTON RESPONSIVE
       document.querySelectorAll(".txt-input").forEach((element) => {
-    element.addEventListener("blur", (event) => {
-        if (event.target.value != "") {
+        element.addEventListener("blur", (event) => {
+          if (event.target.value != "") {
             event.target.nextELementSibling.classList.add("filled");
-        } else {
+          } else {
             event.target.nextElementSibling.classList.remove("filled");
-        }
-    });
-});
+          }
+        });
+      });
     </script>
   </body>
 </html>

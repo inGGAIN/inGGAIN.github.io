@@ -34,7 +34,7 @@
       </nav>
 
       <div class="search input-container f-stellar">
-        <input type="text" class="txt-input" placeholder="" />
+        <input type="text" class="txt-input"/>
         <label for="name" class="input-label">cari...</label>
         <ion-icon class="clr-red" name="search-outline"></ion-icon>
       </div>
@@ -82,33 +82,31 @@
         </aside>
       </div>
 
+      <!-- CONTACT ME  -->
       <div id="contact" class="section clr-white">
-        <div class="content wow fadeInDown" data-wow-delay="0.2s">
+        <div class="" data-wow-delay="0.2s">
           <h1 class="btn-hover">CONTACT ME</h1>
           <p>Jika Anda tertarik untuk bekerjasama dengan saya, atau hanya ingin menyapa, saya akan sangat senang berbicara dengan Anda!</p>
           <br>
+          
           <div class="contact-form">
-  
-            <form id="ajax-contact" method="post" role="form" action="#" data-toggle="validator">
-              <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s">
-                <input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
+            <form id="" method="post" role="form" action="#" data-toggle="validator">
+             <h4>nama</h4>
+              <div class="form-group f-stellar">
+                <input type="text" class="form-control txt-input" id="name" name="name" placeholder="NAME" data-error="nama tidak boleh kosong!" required>
                 <span class="" aria-hidden="true"></span>
-                <div class="help-block with-errors"></div>
               </div>
   
-              
-            <div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s">
-              <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
-              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-              <div class="help-block with-errors"></div>
+              <h4>email</h4>
+            <div class="form-group">
+              <input type="email" class="form-control txt-input" id="email" name="email" placeholder="EMAIL" data-error="tidak boleh kosong" required>
             </div>
 
-            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="1s">
-              <textarea data-minlength="10" class="form-control" id="message" name="message" placeholder="MESSAGE" data-error="Minimum of 10 characters" required></textarea>
-              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
-              <div class="help-block with-errors"></div>
+            <h4>pesan</h4>
+            <div class="form-group" >
+              <textarea data-minlength="10" class="form-control txt-input" id="message" name="message" placeholder="MESSAGE" data-error="karakter kurang dari 10" required></textarea>
             </div>
-            <div class="wow fadeInUp" data-wow-delay="1s">
+            <div class="" >
               <button class="btn-sub">
                 <span class="text">
                   <ion-icon name="send"></ion-icon>

@@ -23,13 +23,13 @@
   </head>
   <body class="">
     <!-- HEADER  -->
-    <header>
+    <header class="glass">
       <a href="#" class="logo f-lombok upper clr-white">indra</a>
       <nav>
         <ul class="navigation capit c-point upper">
-          <li><a href="#">beranda</a></li>
-          <li><a href="#">tentang</a></li>
-          <li><a href="#">kontak</a></li>
+          <li><a href="#content">beranda</a></li>
+          <li><a href="#about">tentang</a></li>
+          <li><a href="#contact">kontak</a></li>
         </ul>
       </nav>
 
@@ -46,29 +46,77 @@
           <h1 class="btn-hover">M Indra Ali</h1>
           <!-- ARTICLE -->
           <div class="flex">
-            <article>
-              Lorem ipsum dolor sit amet consectetur adipisicing elit.
-              Consequatur suscipit maiores quod obcaecati possimus rem
-              praesentium id quae, quibusdam architecto voluptas aspernatur
-              ipsa. Ex pariatur possimus nulla suscipit cumque facilis? Lorem
-              ipsum dolor sit amet consectetur adipisicing elit. Fugit sunt
-              rerum in laboriosam! Asperiores reiciendis porro voluptates, nemo
-              recusandae ipsum dignissimos totam rem aut nobis, architecto
-              dolores iste id nostrum sed vel beatae, ipsa officiis ipsam illo
-              fugit natus iure?
+            <article id="">
+              halo nama saya Muhammad Indra Ali, biasa di panggil Indra. saya
+              kelahiran pengadangan 2 juli 2002, dan saat ini saya tinggal di
+              pengadangan. saya merupakan lulusan dari Wearnes Education Center
+              Bali, dengan jurusan inforkom, dan saat sedang menekuni
+              pemrograman di dicoding
             </article>
             <a href="#">read more</a>
+            <br>
+            
             <!-- ASIDE -->
           </div>
         </div>
         <aside>
           <img
-            src="./assets/img/content/multiscreen.png"
+            src="./assets/img/profile.png"
             alt="image"
             class="image"
           />
+          <div>
+            <li>
+              <ion-icon name="person-outline"></ion-icon>
+              <a class="clr-red hvr-white" href=""> Muhammad Indra Ali </a>
+            </li>
+            <li>
+              <ion-icon name="calendar-outline"></ion-icon>
+              <a class="clr-red hvr-white" href=""> pengadangan, 2 juli 2002 </a>
+            </li>
+            <li>
+              <ion-icon name="location-outline"></ion-icon>
+              <a class="clr-red hvr-white" href=""> pengadangan, lombok timur, ntb </a>
+            </li>
+          </div>
         </aside>
       </div>
+
+      <div id="contact" class="section clr-white">
+        <div class="content wow fadeInDown" data-wow-delay="0.2s">
+          <h1 class="btn-hover">CONTACT ME</h1>
+          <p>Jika Anda tertarik untuk bekerjasama dengan saya, atau hanya ingin menyapa, saya akan sangat senang berbicara dengan Anda!</p>
+          <br>
+          <div class="contact-form">
+  
+            <form id="ajax-contact" method="post" role="form" action="#" data-toggle="validator">
+              <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="0.6s">
+                <input type="text" class="form-control" id="name" name="name" placeholder="NAME" data-error="Field can't be blank!" required>
+                <span class="" aria-hidden="true"></span>
+                <div class="help-block with-errors"></div>
+              </div>
+  
+              
+            <div class="form-group has-feedback wow fadeInRight" data-wow-delay="0.8s">
+              <input type="email" class="form-control" id="email" name="email" placeholder="EMAIL" data-error="Field can't be blank!" required>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+
+            <div class="form-group has-feedback wow fadeInLeft" data-wow-delay="1s">
+              <textarea data-minlength="10" class="form-control" id="message" name="message" placeholder="MESSAGE" data-error="Minimum of 10 characters" required></textarea>
+              <span class="glyphicon form-control-feedback" aria-hidden="true"></span>
+              <div class="help-block with-errors"></div>
+            </div>
+            <div class="wow fadeInUp" data-wow-delay="1s">
+              <button class="btn-sub">
+                <span class="text">
+                  <ion-icon name="send"></ion-icon>
+                </span>
+                <ion-icon name="checkmark-outline"></ion-icon>
+              </button>
+            </div>
+
     </main>
 
     <!-- FOOTER -->
@@ -76,39 +124,27 @@
       <div class="footer-container">
         <div class="footer-row">
           <div class="footer-col">
-            <h4>get help</h4>
-            <ul>
-              <li><a href="#">FAQ</a></li>
-              <li><a href="#">about <menu type="context"></menu></a></li>
-              <li><a href="#">contact me</a></li>
-            </ul>
-          </div>
-          <div class="footer-col">
-            <h4>follow me</h4>
+            <h4 class="btn-hover">follow me</h4>
             <div class="social-links">
               <ul>
                 <li>
-                  <a href="#">
+                  <a href="https://github.com/inGGAIN">
                     <ion-icon name="logo-github"></ion-icon>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
+                  <a href="https://www.instagram.com/inggaindra272/">
                     <ion-icon name="logo-instagram"></ion-icon>
                   </a>
                 </li>
+
                 <li>
                   <a href="#">
                     <ion-icon name="logo-tiktok"></ion-icon>
                   </a>
                 </li>
                 <li>
-                  <a href="#">
-                    <ion-icon name="logo-youtube"></ion-icon>
-                  </a>
-                </li>
-                <li>
-                  <a href="#">
+                  <a href="https://www.linkedin.com/in/inggaindra272/">
                     <ion-icon name="logo-linkedin"></ion-icon>
                   </a>
                 </li>
